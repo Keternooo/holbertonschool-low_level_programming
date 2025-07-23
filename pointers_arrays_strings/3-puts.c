@@ -8,5 +8,10 @@
 
 void _puts(char *str)
 {
-	printf("%sc \n", *str);
+	for(int i = 0; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+	_putchar('\n');
 }
+
