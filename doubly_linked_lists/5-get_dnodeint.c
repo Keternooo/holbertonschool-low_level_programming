@@ -11,7 +11,7 @@
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *tmp;
-	int i = 0;
+	unsigned int i = 0;
 
 	tmp = head;
 
@@ -24,5 +24,5 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		i++;
 	}
 
-	return (NULL)
+	return (NULL);
 }
