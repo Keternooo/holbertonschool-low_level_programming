@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _strcpy - funciton that copies the string to by src, including the terminating null byte (\0),
+/** _strcpy - funciton that copies the string to by src,
+ * including the terminating null byte (\0),
  * to the buffer pointed to by des.
  * @dest: the pointer to return value
  * @src: the string to copie
@@ -18,5 +19,5 @@ char *_strcpy(char *dest, char *src)
 
 	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }
