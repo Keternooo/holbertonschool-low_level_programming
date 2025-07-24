@@ -16,7 +16,7 @@ void puts_half(char *str)
 		len++;
 	}
 
-	if(len % 2 == 0)
+	if (len % 2 == 0)
 	{
 		midLen = len / 2;
 	}
