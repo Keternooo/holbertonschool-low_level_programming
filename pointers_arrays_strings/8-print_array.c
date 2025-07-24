@@ -13,7 +13,9 @@ void print_array(int *a, int n)
 
 	for (i = n; i < n; i++)
 	{
-		_putchar('%d, ', a[i]);
+		_putchar(a[i]);
+		_putchar(',');
+		_putchar(' ');
 	}
 
 }
